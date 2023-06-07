@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+void sort012(int *arr, int n)
+{
+   int cnt0=0;
+   int cnt1=0;
+   int cnt2=0;
+  for(int i=0;i<n;i++)
+  {
+     if(arr[i]==0)
+     cnt0++;
+     if(arr[i]==1)
+     cnt1++;
+     if(arr[i]==2)
+     cnt2++;
+
+  }
+  int i=0;
+  for(;i<cnt0;i++)
+  {
+     arr[i]=0;
+  }
+  for(;i<cnt1+cnt0;i++)
+  {
+     arr[i]=1;
+  }
+   for(;i<cnt2+cnt1+cnt0;i++)
+  {
+     arr[i]=2;
+  }
+    
+
+}
