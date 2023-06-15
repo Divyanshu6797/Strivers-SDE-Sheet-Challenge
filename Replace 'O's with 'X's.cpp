@@ -1,5 +1,5 @@
 class Solution{
-    private :
+    private  :
 
 void dfs(int row,int col,vector<vector<int>> &vis,vector<vector<char>> mat,int delrow[],int delcol[])
 {
