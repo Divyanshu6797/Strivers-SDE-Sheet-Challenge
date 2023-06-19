@@ -5,7 +5,7 @@ class Solution{
         
         for(int i=0;i<N-1;i++)
         {
-            string s1=dict[i];
+            string s1=dict[i]; 
             string s2=dict[i+1];
             
             int n1=dict[i].size();
